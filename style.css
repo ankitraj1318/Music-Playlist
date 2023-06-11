@@ -1,0 +1,41 @@
+body {
+    background-color: #b6c8ab;
+}
+
+.heading {
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 45, 0);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    gap: 9%;
+    padding: 15px 10px;
+    padding-right: 5px;
+}
+
+
+.song img {
+    height: 250px;
+    width: 230px;;
+}
+
+.footer  p{
+    height: 40px;
+    width: 100%;
+    font-family: var(--font1);
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(239, 245, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+
+
